@@ -4,20 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script
-    type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js">
-  </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
   <title>Weather Dashboard</title>
 </head>
-<body>
 
+<body>
 <header id="header" class="col-12">
   <div class="container-fluid">
   <h1>Weather Dashboard</h1>
-</div>
+  </div>
 </header>
 
 <form class="container-fluid">
@@ -26,21 +22,22 @@
     <form id ="search-form" for="search-input" class="col-lg-4 form-label"><strong>Search for a City</strong></label>
     <input id="search-input" type="search" class="form-control"  placeholder="City name...">
     <button type="button" class="btn btn-primary" id="search-button">Search</button>
+    <div id="searched-cities">
+      <h1></h1>
+    </div>
   </div>
 </form>
 
-<div id=current-city>
-  <h2></h2> 
+<div class="card" style="width: 18rem;">
+  <h5 class="card-title">City</h5>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" id="current-temp">temp:</li>
+    <li class="list-group-item" id="current-wind">wind:</li>
+    <li class="list-group-item" id="current-humidity">humidity:</li>
+  </ul>
 </div>
 
-<div id=current-temp>
-  <h2></h2> 
-</div>
-<h3></h3>
-
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./script.js"></script>
 </body>
 </html>
