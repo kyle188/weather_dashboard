@@ -9,26 +9,26 @@
   <title>Weather Dashboard</title>
 </head>
 
-<body>
 <header id="header" class="col-12">
   <div class="container-fluid">
   <h1>Weather Dashboard</h1>
   </div>
 </header>
+<body>
 
 <form class="container-fluid">
   <div class="row mt-2">
     <div class="col-lg-4">
-    <form id ="search-form" for="search-input" class="col-lg-4 form-label"><strong>Search for a City</strong></label>
+    <form id ="search-form" for="search-input" class="col-lg-4 form-label"><strong style="color: rgb(218, 218, 218);"> Search for a City</strong></label>
     <input id="search-input" type="search" class="form-control"  placeholder="City name...">
     <button type="button" class="btn btn-primary" id="search-button">Search</button>
-    <div id="searched-cities">
+    <div id="searched-cities" style="color: rgb(218, 218, 218);">
       <h1></h1>
     </div>
   </div>
 </form>
 
-<div class="card" style="width: 18rem;">
+<div class="card" id="card" style="width: 18rem;">
   <h5 class="card-title">City</h5>
   <ul class="list-group list-group-flush">
     <li class="list-group-item" id="current-temp">temp:</li>

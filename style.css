@@ -1,6 +1,15 @@
 #header {
-    background-color: indigo ;
-    color: white;
+    background-color: rgb(252, 150, 103) ;
+    color: rgb(22, 103, 253);
+    height: 55px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(246, 248, 130);
+    background-image: url(https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: 1700px 1300px;
 }
 
 .header h1 {
