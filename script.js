@@ -8,7 +8,7 @@ var displayCity = document.querySelector('.card-title')
 
 function searchWeather(userInput) {
         var apiKey = "219508d53c09462ba3344f4b9b6bbf02";
-        var coordApi = "http://api.openweathermap.org/geo/1.0/direct?q=" + userInput + "&appid=" + apiKey
+        var coordApi = "https://api.openweathermap.org/geo/1.0/direct?q=" + userInput + "&appid=" + apiKey
     fetch(coordApi)
     .then(function (response) {
         response.json()
