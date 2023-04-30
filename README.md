@@ -8,6 +8,21 @@ An application used for tracking weather conditions by city written in JavaScrip
 
 https://kyle188.github.io/weather_dashboard/
 
+## Installation
+
+* Clone repository
+* Open index.html in browser
+
+## Usage
+
+* Enter the desired city's name to get up to date weather information 
+
+![demo](./assets/weather-dashboard-screenshot.jpg)
+
+*  The Weather Dashboard will display the desired city's current temperature, wind speed, and humidity 
+
+![demo](./assets/weather-dashboard-screenshot-miami.jpg)
+
 ## Technologies Used
 
 * JavaScript
@@ -15,11 +30,6 @@ https://kyle188.github.io/weather_dashboard/
 * CSS
 * moment.js
 
-## Usage
+## Questions
 
-![demo](./assets/weather-dashboard-screenshot.png)
-
-## Installation
-
-* Clone repository
-* Open index.html in browser
+Feel free to email me at kybar089@gmail.com or look at my [Github](https://github.com/kyle188)
